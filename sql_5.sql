@@ -7,7 +7,7 @@ SELECT
     p.MIDNAME, 
     po.Pare, 
     p.BDATE, 
-    COUNT(*) AS SameNameBirthCount
+    COUNT(*) AS NameBirthCount
 FROM 
     portfolio po
 JOIN 
