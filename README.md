@@ -9,12 +9,12 @@
 
 <details>
 <summary>Описание Person</summary>
-ID -	Код должника,    
-LASTNAME -	Фамилия,   
-FIRSTNAME -	Имя,   
-MIDNAME	- Отчество,    
-POL	- Пол: 1-М, 2-Ж,    
-BDATE	- Дата рождения,   
+ID -	Код должника,.<br>
+LASTNAME -	Фамилия,.<br>
+FIRSTNAME -	Имя,.<br>
+MIDNAME	- Отчество,.<br> 
+POL	- Пол: 1-М, 2-Ж,.<br>  
+BDATE	- Дата рождения,.<br>
 BYEAR -	Год рождения    
 </details>
 
