@@ -16,6 +16,7 @@ BDATE	- Дата рождения,<br>
 BYEAR -	Год рождения    
 </details>
 
+
 Таблица debt
 | ID | Parent_id | Ostat| Time_lab | Sym_debt|  Debt_sym | R_portfolio_id|
 |----|----------|-------|----------|---------|-----------|---------------|
@@ -43,6 +44,7 @@ R_portfolio_id -	ID портфеля
 ID - id портфеля,<br>
 Pare	- Название портфеля
 </details>
+
 
 Таблица contact_log
 | ID | result | Date| Type | Operator|  Parent_id |
