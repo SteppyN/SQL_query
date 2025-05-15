@@ -7,6 +7,8 @@
 |----|----------|----------|---------|----|--------|------|
 |INTEGER|VARCHAR|VARCHAR|VARCHAR|VARCHAR| VARCHAR|VARCHAR|
 
+<details>
+<summary>Описание Person</summary>
 ID -	Код должника,  
 LASTNAME -	Фамилия,  
 FIRSTNAME -	Имя,  
@@ -14,12 +16,15 @@ MIDNAME	- Отчество,
 POL	- Пол: 1-М, 2-Ж,  
 BDATE	- Дата рождения,  
 BYEAR -	Год рождения  
+</details>
 
 Таблица debt
 | ID | Parent_id | Ostat| Time_lab | Sym_debt|  Debt_sym | R_portfolio_id|
 |----|----------|-------|----------|---------|-----------|---------------|
 |INTEGER|VARCHAR|VARCHAR|VARCHAR|VARCHAR| VARCHAR|VARCHAR|
 
+<details>
+<summary>Описание debt</summary>
 ID 	- Код долга,   
 Parent_id	- ID_должника,  
 Ostat -	Остаток,  
@@ -27,6 +32,7 @@ Time_lab	- Часовой пояс,
 Sym_debt	- Остаток просроченной задолженности,  
 Debt_sym	- Проценты,  
 R_portfolio_id -	ID портфеля
+</details>
 
 
 Таблица portfolio
@@ -34,22 +40,26 @@ R_portfolio_id -	ID портфеля
 |----|------|
 |INTEGER|VARCHAR|
 
+<details>
+<summary>Описание portfolio</summary>
 ID - id портфеля,  
 Pare	- Название портфеля
-
+</details>
 
 Таблица contact_log
 | ID | result | Date| Type | Operator|  Parent_id |
 |----|--------|-----|------|---------|------------|
 |INTEGER|VARCHAR|VARCHAR|VARCHAR|VARCHAR| VARCHAR|
 
+<details>
+<summary>Описание contact_log</summary>
 ID -	id лога,  
 result	- Результат контакта,  
 Date	- Дата контакта,  
 Type - 	Тип контакта,  
 Operator -	Оператор, зарегистрировавший контакт,  
 Parent_id	- ID долга
-
+</details>
 
 
 # Задача 1:
