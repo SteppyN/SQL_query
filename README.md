@@ -1,6 +1,6 @@
 ## Решение типовых задач на написание SQL-запросов
 
-# Таблицы:
+## Таблицы:
 
 Таблица Person
 | ID | LASTNAME | FIRSTNAME| MIDNAME | POL|  BDATE | BYEAR|
@@ -25,12 +25,12 @@ BYEAR -	Год рождения
 
 <details>
 <summary>Описание debt</summary>
-ID 	- Код долга,   
-Parent_id	- ID_должника,  
-Ostat -	Остаток,  
-Time_lab	- Часовой пояс,  
-Sym_debt	- Остаток просроченной задолженности,  
-Debt_sym	- Проценты,  
+ID 	- Код долга,<br>
+Parent_id	- ID_должника,<br>
+Ostat -	Остаток,<br>
+Time_lab	- Часовой пояс,<br>
+Sym_debt	- Остаток просроченной задолженности,<br>
+Debt_sym	- Проценты,<br>
 R_portfolio_id -	ID портфеля
 </details>
 
@@ -42,7 +42,7 @@ R_portfolio_id -	ID портфеля
 
 <details>
 <summary>Описание portfolio</summary>
-ID - id портфеля,  
+ID - id портфеля,<br>
 Pare	- Название портфеля
 </details>
 
@@ -53,11 +53,11 @@ Pare	- Название портфеля
 
 <details>
 <summary>Описание contact_log</summary>
-ID -	id лога,  
-result	- Результат контакта,  
-Date	- Дата контакта,  
-Type - 	Тип контакта,  
-Operator -	Оператор, зарегистрировавший контакт,  
+ID -	id лога,<br>
+result	- Результат контакта,<br>
+Date	- Дата контакта,<br>
+Type - 	Тип контакта,<br>
+Operator -	Оператор, зарегистрировавший контакт,<br>
 Parent_id	- ID долга
 </details>
 
