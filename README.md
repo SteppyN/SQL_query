@@ -10,11 +10,17 @@
 <details>
 <summary>Описание Person</summary>
 ID -	Код должника,  
-LASTNAME -	Фамилия,  
-FIRSTNAME -	Имя,  
+ 
+LASTNAME -	Фамилия, 
+
+FIRSTNAME -	Имя, 
+
 MIDNAME	- Отчество,  
+
 POL	- Пол: 1-М, 2-Ж,  
-BDATE	- Дата рождения,  
+
+BDATE	- Дата рождения, 
+
 BYEAR -	Год рождения  
 </details>
 
