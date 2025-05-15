@@ -1,4 +1,3 @@
-# SQL_query
 ## Решение типовых задач на написание SQL-запросов
 
 # Таблицы:
@@ -8,25 +7,25 @@
 |----|----------|----------|---------|----|--------|------|
 |INTEGER|VARCHAR|VARCHAR|VARCHAR|VARCHAR| VARCHAR|VARCHAR|
 
-ID -	Код должника,
-LASTNAME -	Фамилия,
-FIRSTNAME -	Имя,
-MIDNAME	- Отчество,
-POL	- Пол: 1-М, 2-Ж,
-BDATE	- Дата рождения,
-BYEAR -	Год рождения
+ID -	Код должника,  
+LASTNAME -	Фамилия,  
+FIRSTNAME -	Имя,  
+MIDNAME	- Отчество,  
+POL	- Пол: 1-М, 2-Ж,  
+BDATE	- Дата рождения,  
+BYEAR -	Год рождения  
 
 Таблица debt
 | ID | Parent_id | Ostat| Time_lab | Sym_debt|  Debt_sym | R_portfolio_id|
 |----|----------|-------|----------|---------|-----------|---------------|
 |INTEGER|VARCHAR|VARCHAR|VARCHAR|VARCHAR| VARCHAR|VARCHAR|
 
-ID 	- Код долга, 
-Parent_id	- ID_должника,
-Ostat -	Остаток,
-Time_lab	- Часовой пояс,
-Sym_debt	- Остаток просроченной задолженности,
-Debt_sym	- Проценты,
+ID 	- Код долга,   
+Parent_id	- ID_должника,  
+Ostat -	Остаток,  
+Time_lab	- Часовой пояс,  
+Sym_debt	- Остаток просроченной задолженности,  
+Debt_sym	- Проценты,  
 R_portfolio_id -	ID портфеля
 
 
@@ -35,17 +34,20 @@ R_portfolio_id -	ID портфеля
 |----|------|
 |INTEGER|VARCHAR|
 
+ID - id портфеля,  
+Pare	- Название портфеля
+
 
 Таблица contact_log
 | ID | result | Date| Type | Operator|  Parent_id |
 |----|--------|-----|------|---------|------------|
 |INTEGER|VARCHAR|VARCHAR|VARCHAR|VARCHAR| VARCHAR|
 
-ID -	id лога,
-result	- Результат контакта,
-Date	- Дата контакта,
-Type - 	Тип контакта,
-Operator -	Оператор, зарегистрировавший контакт,
+ID -	id лога,  
+result	- Результат контакта,  
+Date	- Дата контакта,  
+Type - 	Тип контакта,  
+Operator -	Оператор, зарегистрировавший контакт,  
 Parent_id	- ID долга
 
 
